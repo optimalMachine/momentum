@@ -11,6 +11,10 @@ h1 {
     transition: color 0.5s ease-in-out;
 }
 
+input {
+    font-size: 30px;
+}
+
 .clicked {
     color: #7f8c8d;
 }
@@ -22,6 +26,11 @@ h1 {
 .form,
 .greetings {
     display: none;
+    position:absolute; 
+    top:75%; 
+    left:6%; 
+    margin-top:-100px;
+    font-size:35px;
 }
 
 .showing {
